@@ -56,7 +56,7 @@ export default function WhyChooseUs() {
           <div className="relative h-full min-h-[500px]">
             <div className="absolute inset-0 bg-charcoal-900 translate-x-4 translate-y-4"></div>
             <img 
-              src="/why-us-clean.jpg" 
+              src={`${import.meta.env.BASE_URL}why-us-clean.jpg`} 
               alt="Detail cleaning" 
               className="absolute inset-0 w-full h-full object-cover z-10"
             />

@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative">
             <div className="absolute -inset-4 border border-gold-500/20 transform translate-x-4 translate-y-4"></div>
             <img 
-              src="/about-clean.jpg" 
+              src={`${import.meta.env.BASE_URL}about-clean.jpg`} 
               alt="Professional cleaning staff" 
               className="relative w-full h-[600px] object-cover grayscale-[20%] sepia-[10%] shadow-2xl"
             />
